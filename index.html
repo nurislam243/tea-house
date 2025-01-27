@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope{
+        font-family: "Manrope", serif;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div class="max-w-[1440px] m-auto">
+        <header class="pl-4">
+            <!-- banner start here -->
+             <div class="grid grid-cols-1 md:grid-cols-2 mt-10">
+                <!-- banner content -->
+                 <div class="">
+                    <h1 class="manrope font-extrabold leading-[100px] text-6xl text-gray-900">
+                        It's good <br> tea time at The <br> Tea House
+                    </h1>
+                    <p class="manrope font-medium leading-7 text-lg text-gray-600 mt-6 mb-8 mr-20">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class="manrope  text-white font-bold text-lg bg-gradient-to-r from-orange-500 to-red-500 rounded-lg px-5 py-3">Explore More</button>
+                 </div>
+                 <!-- banner img -->
+                 <div class="">
+                    <img src="images/banner.png" alt="" class="">
+                    <!-- rating -->
+                     <div class="flex gap-3 justify-center items-center bg-white -mt-32 ml-28 w-64 h-24 rounded-lg drop-shadow-xl">
+                        <div class="">
+                            <div class="bg-no-repeat bg-cover bg-center bg-[url('../images/Group.png')] w-11">
+                                <img src="images/Vector.png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h4 class="font-extrabold manrope text-3xl text-gray-900">5.00</h4>
+                            <p class="manrope font-semibold text-gray-500">Trust Pilot Ratings</p>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+        </header>
+    </div>
 </body>
 </html>
